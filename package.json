@@ -1,0 +1,13 @@
+﻿{
+  "name": "cyberfunk",
+  "version": "1.0.0",
+  "description": "Cyberfunk WordPress Theme",
+  "private": true,
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/theme.css -o ./assets/css/theme.css --minify",
+    "watch": "npx tailwindcss -i ./src/theme.css -o ./assets/css/theme.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
